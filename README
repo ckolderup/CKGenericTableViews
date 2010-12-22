@@ -1,0 +1,10 @@
+CKGenericTableViews is a set of classes for use with UIKit programming. You can easily set up tables with different kinds of special cells. This project includes a very basic example app that demonstrates the use of different cell types.
+
+Big thanks to Matt Gallagher of Cocoa With Love (http://www.cocoawithlove.com) for the design pattern (via his post "Heterogenous cells in a UITableViewController", http://cocoawithlove.com/2008/12/heterogeneous-cells-in.html) and Craig Hockenberry for basically doing what I did first. I didn't want to use his code because I didn't understand it without having written it myself.
+
+Future enhancements:
+  * Update for more recent iOS version (currently compiled against 4.1)
+  * More cell types
+  * Fixes for everything you find that's wrong or weird
+
+I'm just this guy who's getting started with iOS development and Objective-C (and even git!) in general, so feel free to send me feedback/pull requests(?!? guess I'd have to learn how those work).
