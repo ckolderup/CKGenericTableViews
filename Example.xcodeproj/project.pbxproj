@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		C955290012C2E8A0002D4172 /* CKActionRowCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528E512C2E8A0002D4172 /* CKActionRowCellController.m */; };
+		C955290112C2E8A0002D4172 /* CKChoiceRowCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528E812C2E8A0002D4172 /* CKChoiceRowCellController.m */; };
+		C955290212C2E8A0002D4172 /* CKChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528EA12C2E8A0002D4172 /* CKChoiceTableViewController.m */; };
+		C955290312C2E8A0002D4172 /* CKExclusiveSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528EC12C2E8A0002D4172 /* CKExclusiveSelectModel.m */; };
+		C955290412C2E8A0002D4172 /* CKExclusiveSelectRowCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528EE12C2E8A0002D4172 /* CKExclusiveSelectRowCellController.m */; };
+		C955290512C2E8A0002D4172 /* CKGenericTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528F012C2E8A0002D4172 /* CKGenericTableViewController.m */; };
+		C955290612C2E8A0002D4172 /* CKLinkRowCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528F212C2E8A0002D4172 /* CKLinkRowCellController.m */; };
+		C955290712C2E8A0002D4172 /* CKSwitchRowCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528F412C2E8A0002D4172 /* CKSwitchRowCellController.m */; };
+		C955290812C2E8A0002D4172 /* CKTextRowCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528F612C2E8A0002D4172 /* CKTextRowCellController.m */; };
+		C955290912C2E8A0002D4172 /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528F912C2E8A0002D4172 /* ExampleAppDelegate.m */; };
+		C955290A12C2E8A0002D4172 /* ExampleChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528FB12C2E8A0002D4172 /* ExampleChildViewController.m */; };
+		C955290B12C2E8A0002D4172 /* ExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528FD12C2E8A0002D4172 /* ExampleModel.m */; };
+		C955290C12C2E8A0002D4172 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95528FF12C2E8A0002D4172 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C95528E112C2E897002D4172 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95528E412C2E8A0002D4172 /* CKActionRowCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKActionRowCellController.h; sourceTree = "<group>"; };
+		C95528E512C2E8A0002D4172 /* CKActionRowCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKActionRowCellController.m; sourceTree = "<group>"; };
+		C95528E612C2E8A0002D4172 /* CKCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCellController.h; sourceTree = "<group>"; };
+		C95528E712C2E8A0002D4172 /* CKChoiceRowCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKChoiceRowCellController.h; sourceTree = "<group>"; };
+		C95528E812C2E8A0002D4172 /* CKChoiceRowCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKChoiceRowCellController.m; sourceTree = "<group>"; };
+		C95528E912C2E8A0002D4172 /* CKChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKChoiceTableViewController.h; sourceTree = "<group>"; };
+		C95528EA12C2E8A0002D4172 /* CKChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKChoiceTableViewController.m; sourceTree = "<group>"; };
+		C95528EB12C2E8A0002D4172 /* CKExclusiveSelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKExclusiveSelectModel.h; sourceTree = "<group>"; };
+		C95528EC12C2E8A0002D4172 /* CKExclusiveSelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKExclusiveSelectModel.m; sourceTree = "<group>"; };
+		C95528ED12C2E8A0002D4172 /* CKExclusiveSelectRowCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKExclusiveSelectRowCellController.h; sourceTree = "<group>"; };
+		C95528EE12C2E8A0002D4172 /* CKExclusiveSelectRowCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKExclusiveSelectRowCellController.m; sourceTree = "<group>"; };
+		C95528EF12C2E8A0002D4172 /* CKGenericTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKGenericTableViewController.h; sourceTree = "<group>"; };
+		C95528F012C2E8A0002D4172 /* CKGenericTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKGenericTableViewController.m; sourceTree = "<group>"; };
+		C95528F112C2E8A0002D4172 /* CKLinkRowCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLinkRowCellController.h; sourceTree = "<group>"; };
+		C95528F212C2E8A0002D4172 /* CKLinkRowCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKLinkRowCellController.m; sourceTree = "<group>"; };
+		C95528F312C2E8A0002D4172 /* CKSwitchRowCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSwitchRowCellController.h; sourceTree = "<group>"; };
+		C95528F412C2E8A0002D4172 /* CKSwitchRowCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSwitchRowCellController.m; sourceTree = "<group>"; };
+		C95528F512C2E8A0002D4172 /* CKTextRowCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTextRowCellController.h; sourceTree = "<group>"; };
+		C95528F612C2E8A0002D4172 /* CKTextRowCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTextRowCellController.m; sourceTree = "<group>"; };
+		C95528F812C2E8A0002D4172 /* ExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		C95528F912C2E8A0002D4172 /* ExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		C95528FA12C2E8A0002D4172 /* ExampleChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleChildViewController.h; sourceTree = "<group>"; };
+		C95528FB12C2E8A0002D4172 /* ExampleChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleChildViewController.m; sourceTree = "<group>"; };
+		C95528FC12C2E8A0002D4172 /* ExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
+		C95528FD12C2E8A0002D4172 /* ExampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModel.m; sourceTree = "<group>"; };
+		C95528FE12C2E8A0002D4172 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C95528FF12C2E8A0002D4172 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C955291412C2E8C8002D4172 /* Example_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example_Prefix.pch; sourceTree = "<group>"; };
+		C955292212C2E921002D4172 /* Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95528E112C2E897002D4172 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C95528E312C2E8A0002D4172 /* CKGenericTableViews */,
+				C95528F712C2E8A0002D4172 /* Example App */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C955291412C2E8C8002D4172 /* Example_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C955292212C2E921002D4172 /* Example-Info.plist */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95528E312C2E8A0002D4172 /* CKGenericTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				C95528E412C2E8A0002D4172 /* CKActionRowCellController.h */,
+				C95528E512C2E8A0002D4172 /* CKActionRowCellController.m */,
+				C95528E612C2E8A0002D4172 /* CKCellController.h */,
+				C95528E712C2E8A0002D4172 /* CKChoiceRowCellController.h */,
+				C95528E812C2E8A0002D4172 /* CKChoiceRowCellController.m */,
+				C95528E912C2E8A0002D4172 /* CKChoiceTableViewController.h */,
+				C95528EA12C2E8A0002D4172 /* CKChoiceTableViewController.m */,
+				C95528EB12C2E8A0002D4172 /* CKExclusiveSelectModel.h */,
+				C95528EC12C2E8A0002D4172 /* CKExclusiveSelectModel.m */,
+				C95528ED12C2E8A0002D4172 /* CKExclusiveSelectRowCellController.h */,
+				C95528EE12C2E8A0002D4172 /* CKExclusiveSelectRowCellController.m */,
+				C95528EF12C2E8A0002D4172 /* CKGenericTableViewController.h */,
+				C95528F012C2E8A0002D4172 /* CKGenericTableViewController.m */,
+				C95528F112C2E8A0002D4172 /* CKLinkRowCellController.h */,
+				C95528F212C2E8A0002D4172 /* CKLinkRowCellController.m */,
+				C95528F312C2E8A0002D4172 /* CKSwitchRowCellController.h */,
+				C95528F412C2E8A0002D4172 /* CKSwitchRowCellController.m */,
+				C95528F512C2E8A0002D4172 /* CKTextRowCellController.h */,
+				C95528F612C2E8A0002D4172 /* CKTextRowCellController.m */,
+			);
+			path = CKGenericTableViews;
+			sourceTree = "<group>";
+		};
+		C95528F712C2E8A0002D4172 /* Example App */ = {
+			isa = PBXGroup;
+			children = (
+				C95528F812C2E8A0002D4172 /* ExampleAppDelegate.h */,
+				C95528F912C2E8A0002D4172 /* ExampleAppDelegate.m */,
+				C95528FA12C2E8A0002D4172 /* ExampleChildViewController.h */,
+				C95528FB12C2E8A0002D4172 /* ExampleChildViewController.m */,
+				C95528FC12C2E8A0002D4172 /* ExampleModel.h */,
+				C95528FD12C2E8A0002D4172 /* ExampleModel.m */,
+				C95528FE12C2E8A0002D4172 /* RootViewController.h */,
+				C95528FF12C2E8A0002D4172 /* RootViewController.m */,
+			);
+			path = "Example App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = CKGenericTableViews;
+			productReference = C95528E112C2E897002D4172 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				C955290012C2E8A0002D4172 /* CKActionRowCellController.m in Sources */,
+				C955290112C2E8A0002D4172 /* CKChoiceRowCellController.m in Sources */,
+				C955290212C2E8A0002D4172 /* CKChoiceTableViewController.m in Sources */,
+				C955290312C2E8A0002D4172 /* CKExclusiveSelectModel.m in Sources */,
+				C955290412C2E8A0002D4172 /* CKExclusiveSelectRowCellController.m in Sources */,
+				C955290512C2E8A0002D4172 /* CKGenericTableViewController.m in Sources */,
+				C955290612C2E8A0002D4172 /* CKLinkRowCellController.m in Sources */,
+				C955290712C2E8A0002D4172 /* CKSwitchRowCellController.m in Sources */,
+				C955290812C2E8A0002D4172 /* CKTextRowCellController.m in Sources */,
+				C955290912C2E8A0002D4172 /* ExampleAppDelegate.m in Sources */,
+				C955290A12C2E8A0002D4172 /* ExampleChildViewController.m in Sources */,
+				C955290B12C2E8A0002D4172 /* ExampleModel.m in Sources */,
+				C955290C12C2E8A0002D4172 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Example_Prefix.pch;
+				INFOPLIST_FILE = "Example-Info.plist";
+				PRODUCT_NAME = Example;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CKGenericTableViews_Prefix.pch;
+				INFOPLIST_FILE = "CKGenericTableViews-Info.plist";
+				PRODUCT_NAME = CKGenericTableViews;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
