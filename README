@@ -2,9 +2,21 @@ CKGenericTableViews is a set of classes for use with UIKit programming. You can 
 
 Big thanks to Matt Gallagher of Cocoa With Love (http://www.cocoawithlove.com) for the design pattern (via his post "Heterogenous cells in a UITableViewController", http://cocoawithlove.com/2008/12/heterogeneous-cells-in.html) and Craig Hockenberry for basically doing what I did first. I didn't want to use his code because I didn't understand it without having written it myself.
 
+Current cell types:
+  * CKActionRowCellController: a basic cell that lets you register an event to be fired when pressed. I currently use this for bringing up action sheets, photo browsers, etc.
+  * CKChoiceRowCellController: a cell with placeholder text that presents a list of options, then shows the option chosen (if not canceled out of).
+  * CKExclusiveSelectRowCellController: used to make up one row of a group of mutually exclusive items. The most recently pressed item gets a checkmark next to it. Think of the ringtone selection in Settings.app. An instance of CKExclusiveSelectModel is shared by all cells that are part of the selection group.
+  * CKLinkRowCellController: a "link" to drill down into another view. Can be used to quickly build up a heirarchy of tableviews.
+  * CKSwitchRowCellController: an ON/OFF switch as seen in many preference screens.
+  * CKTextRowCellController: a cell with an embedded UITextField for entering text. Supports placeholder text.
+
+Of course, you can subclass any of these and add on to the cellForRowAtIndexPath to easily extend the visual design of the cell. I do that a lot to increase the row height, add images, and so forth.
+
 Future enhancements:
   * Update for more recent iOS version (currently compiled against 4.1)
   * More cell types
   * Fixes for everything you find that's wrong or weird
 
 I'm just this guy who's getting started with iOS development and Objective-C (and even git!) in general, so feel free to send me feedback/pull requests(?!? guess I'd have to learn how those work).
+
+Big thanks to Logan Capaldo for looking over the code less than 12 hours after I posted it and giving me some feedback. I really appreciate it!
