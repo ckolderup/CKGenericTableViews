@@ -1,745 +1,0 @@
-TExample
-v7
-r0
-t314763732.689714
-cCheck dependencies
-cProcessInfoPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Info.plist Example-Info.plist
-cCompileXIB /Users/casey/src/CKGenericTableViews/MainWindow.xib
-cCompileXIB /Users/casey/src/CKGenericTableViews/RootViewController.xib
-cProcessPCH /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch.gch Example_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o /Users/casey/src/CKGenericTableViews/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKActionRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceTableViewController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectModel.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKGenericTableViewController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKLinkRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKSwitchRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKTextRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleAppDelegate.o "/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleChildViewController.o "/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleModel.o "/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/RootViewController.o "/Users/casey/src/CKGenericTableViews/Example App/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example normal i386
-cGenerateDSYMFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app.dSYM /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example
-cTouch /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
-c000000004C6C30170000000000000110
-t1282158615
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A4DB60000000000295900
-t1280986550
-s2709760
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A4DB0000000000029D580
-t1280986544
-s2741632
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A4DA10000000000001466
-t1280986529
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C6241ED00000000000009CD
-t1281507821
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C6242840000000001E228C0
-t1281507972
-s31598784
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
-c000000004C57A0390000000000001A5C
-t1280811065
-s6748
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.h
-c000000004D1170760000000000000253
-t1292988534
-s595
-i<UIKit/UIKit.h>
-i"CKCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m
-c000000004D117F2C000000000000054D
-t1292992300
-s1357
-i"CKActionRowCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKCellController.h
-c000000004D013BAB00000000000002D0
-t1291926443
-s720
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.h
-c000000004D1170710000000000000332
-t1292988529
-s818
-i<UIKit/UIKit.h>
-i"CKCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m
-c000000004D117F3C000000000000081E
-t1292992316
-s2078
-i"CKChoiceRowCellController.h"
-i"CKChoiceTableViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.h
-c000000004D013E1700000000000001FD
-t1291927063
-s509
-i<UIKit/UIKit.h>
-i"CKGenericTableViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m
-c000000004D117F4A00000000000004E4
-t1292992330
-s1252
-i"CKChoiceTableViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.h
-c000000004D013BD90000000000000223
-t1291926489
-s547
-i<Foundation/Foundation.h>
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m
-c000000004D117F510000000000000261
-t1292992337
-s609
-i"CKExclusiveSelectModel.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.h
-c000000004D11706C00000000000002D5
-t1292988524
-s725
-i<UIKit/UIKit.h>
-i"CKCellController.h"
-i"CKExclusiveSelectModel.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m
-c000000004D117F570000000000000804
-t1292992343
-s2052
-i"CKExclusiveSelectRowCellController.h"
-i"CKGenericTableViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.h
-c000000004D1170490000000000000328
-t1292988489
-s808
-i<UIKit/UIKit.h>
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m
-c000000004D0253A30000000000000D0F
-t1291998115
-s3343
-i"CKGenericTableViewController.h"
-i"CKCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.h
-c000000004D11730600000000000003AA
-t1292989190
-s938
-i<UIKit/UIKit.h>
-i"CKCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m
-c000000004D117F6500000000000007BA
-t1292992357
-s1978
-i"CKLinkRowCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.h
-c000000004D11705B00000000000003C5
-t1292988507
-s965
-i<UIKit/UIKit.h>
-i"CKCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m
-c000000004D117F6B0000000000000790
-t1292992363
-s1936
-i"CKSwitchRowCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.h
-c000000004D117061000000000000036D
-t1292988513
-s877
-i<UIKit/UIKit.h>
-i"CKCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m
-c000000004D117F0B00000000000009D1
-t1292992267
-s2513
-i"CKTextRowCellController.h"
-
-N/Users/casey/src/CKGenericTableViews/CKGenericTableViews_Prefix.pch
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.h
-c000000004D12AF6D00000000000001EE
-t1293070189
-s494
-i<UIKit/UIKit.h>
-
-N/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m
-c000000004D12AF720000000000000AB8
-t1293070194
-s2744
-i"ExampleAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.h
-c000000004D1171320000000000000107
-t1292988722
-s263
-i<UIKit/UIKit.h>
-
-N/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m
-c000000004D1171320000000000000641
-t1292988722
-s1601
-i"ExampleChildViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.h
-c000000004D117E1B00000000000002DD
-t1292992027
-s733
-i<Foundation/Foundation.h>
-
-N/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m
-c000000004D117E470000000000000386
-t1292992071
-s902
-i"ExampleModel.h"
-
-N/Users/casey/src/CKGenericTableViews/Example App/RootViewController.h
-c000000004D117CE200000000000001EA
-t1292991714
-s490
-i<UIKit/UIKit.h>
-i"CKGenericTableViewController.h"
-i"ExampleModel.h"
-
-N/Users/casey/src/CKGenericTableViews/Example App/RootViewController.m
-c000000004D1180330000000000001274
-t1292992563
-s4724
-i"RootViewController.h"
-i"CKActionRowCellController.h"
-i"CKChoiceRowCellController.h"
-i"CKLinkRowCellController.h"
-i"CKSwitchRowCellController.h"
-i"CKTextRowCellController.h"
-i"CKExclusiveSelectRowCellController.h"
-i"ExampleChildViewController.h"
-
-N/Users/casey/src/CKGenericTableViews/Example-Info.plist
-c000000004D116053000000000000038D
-t1292984403
-s909
-
-N/Users/casey/src/CKGenericTableViews/Example.plist
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/Example_Prefix.pch
-c000000004D1160530000000000000158
-t1292984403
-s344
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/casey/src/CKGenericTableViews/MainWindow.xib
-c000000004D12B22F0000000000005FF4
-t1293070895
-s24564
-
-N/Users/casey/src/CKGenericTableViews/RootViewController.xib
-c000000004D12B24F0000000000004452
-t1293070927
-s17490
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app
-t1293070632
-s170
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app.dSYM
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/CKGenericTableViews
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Example.plist
-t1293070632
-s494
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Info.plist
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/MainWindow.nib
-t1293070630
-s2468
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/PkgInfo
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/RootViewController.nib
-t1293070630
-s1518
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app
-t1293070932
-s272
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app.dSYM
-t1293070784
-s102
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example
-t1293070784
-s77884
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example-Info.plist
-t1293070754
-s494
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example.plist
-t2
-s0
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Info.plist
-t1293070740
-s591
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/MainWindow.nib
-t1293070932
-s2456
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/PkgInfo
-t1293070740
-s8
-
-N/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/RootViewController.nib
-t1293070932
-s1518
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKActionRowCellController.o
-t1293070783
-s43428
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceRowCellController.o
-t1293070783
-s47372
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceTableViewController.o
-t1293070783
-s42212
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectModel.o
-t1293070783
-s10648
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectRowCellController.o
-t1293070784
-s45168
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKGenericTableViewController.o
-t1293070784
-s44456
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKGenericTableViews.LinkFileList
-c000000004D12B155000000000000078E
-t1293070677
-s1934
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKLinkRowCellController.o
-t1293070784
-s42364
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKSwitchRowCellController.o
-t1293070784
-s43972
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKTextRowCellController.o
-t1293070784
-s50036
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/Example.LinkFileList
-c000000004D12B186000000000000078E
-t1293070726
-s1934
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleAppDelegate.o
-t1293070784
-s49468
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleChildViewController.o
-t1293070784
-s34760
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleModel.o
-t1293070784
-s17884
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/RootViewController.o
-t1293070784
-s56140
-
-N/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o
-t1293070783
-s6300
-
-N/Users/casey/src/CKGenericTableViews/main.m
-c000000004D1160530000000000000178
-t1292984403
-s376
-i<UIKit/UIKit.h>
-
-N/var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CKGenericTableViews_Prefix-hbhwruehwcmaoqcmsojppbyavaxp/CKGenericTableViews_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch.gch
-t1293070783
-s15211536
-
-NCKGenericTableViews-Info.plist
-c00000000000000000000000000000000
-t2
-s0
-
-NExample-Info.plist
-c000000004D116053000000000000038D
-t1292984403
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314763730#314763730#0(0"0(0#1#0"8638234912#0"0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKActionRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.630240
-e314763583.737592
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKActionRowCellController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m314763583#314763583#0(0"0(0#0#84"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m8631990176#1954"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKActionRowCellController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKActionRowCellController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.721113
-e314763583.872400
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceRowCellController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m314763583#314763583#0(0"0(0#0#84"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m8629984704#1954"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceRowCellController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceRowCellController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceTableViewController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.737695
-e314763583.846567
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceTableViewController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m314763583#314763583#0(0"0(0#0#86"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m8628604448#1958"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKChoiceTableViewController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKChoiceTableViewController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectModel.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.846679
-e314763583.929461
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectModel.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m314763583#314763583#0(0"0(0#0#81"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m8638714720#1948"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectModel.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectModel.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.872507
-e314763584.023087
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectRowCellController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m314763583#314763584#0(0"0(0#0#93"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m8637693888#1972"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKExclusiveSelectRowCellController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKExclusiveSelectRowCellController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKGenericTableViewController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.929566
-e314763584.047047
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKGenericTableViewController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m314763583#314763584#0(0"0(0#0#87"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m8635856640#1960"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKGenericTableViewController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKGenericTableViewController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKLinkRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.023276
-e314763584.122113
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKLinkRowCellController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m314763584#314763584#0(0"0(0#0#82"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m8633242336#1950"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKLinkRowCellController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKLinkRowCellController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKSwitchRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.047162
-e314763584.174777
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKSwitchRowCellController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m314763584#314763584#0(0"0(0#0#84"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m8631039744#1954"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKSwitchRowCellController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKSwitchRowCellController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKTextRowCellController.o /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.122231
-e314763584.269296
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKTextRowCellController.o
-x/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m314763584#314763584#0(0"0(0#0#82"/Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m8628611744#1950"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews/CKTextRowCellController.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/CKTextRowCellController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleAppDelegate.o "/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.174892
-e314763584.285704
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleAppDelegate.o
-x/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m314763584#314763584#0(0"0(0#0#69"/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m8639551200#1934"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c "/Users/casey/src/CKGenericTableViews/Example App/ExampleAppDelegate.m" -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleAppDelegate.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleChildViewController.o "/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.269412
-e314763584.372415
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleChildViewController.o
-x/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m314763584#314763584#0(0"0(0#0#77"/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m8637579520#1950"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c "/Users/casey/src/CKGenericTableViews/Example App/ExampleChildViewController.m" -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleChildViewController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleModel.o "/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.285830
-e314763584.394640
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleModel.o
-x/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m314763584#314763584#0(0"0(0#0#63"/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m8636977152#1922"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c "/Users/casey/src/CKGenericTableViews/Example App/ExampleModel.m" -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/ExampleModel.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/RootViewController.o "/Users/casey/src/CKGenericTableViews/Example App/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763584.372531
-e314763584.468928
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/RootViewController.o
-x/Users/casey/src/CKGenericTableViews/Example App/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/casey/src/CKGenericTableViews/Example App/RootViewController.m314763584#314763584#0(0"0(0#0#69"/Users/casey/src/CKGenericTableViews/Example App/RootViewController.m8634670624#1934"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c "/Users/casey/src/CKGenericTableViews/Example App/RootViewController.m" -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o /Users/casey/src/CKGenericTableViews/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763583.629234
-e314763583.721003
-r1
-xCompileC
-xbuild/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o
-x/Users/casey/src/CKGenericTableViews/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/casey/src/CKGenericTableViews/main.m314763583#314763583#0(0"0(0#0#43"/Users/casey/src/CKGenericTableViews/main.m8632741856#1892"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -include /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch -c /Users/casey/src/CKGenericTableViews/main.m -o /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/casey/src/CKGenericTableViews/MainWindow.xib
-s314763730.622530
-e314763732.682422
-r1
-xCompileXIB
-x/Users/casey/src/CKGenericTableViews/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib314763730#314763732#0(0"0(0#0#51"/Users/casey/src/CKGenericTableViews/MainWindow.xib8631534144#564"    cd /Users/casey/src/CKGenericTableViews    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/MainWindow.nib /Users/casey/src/CKGenericTableViews/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/casey/src/CKGenericTableViews/RootViewController.xib
-s314763730.655343
-e314763732.673031
-r1
-xCompileXIB
-x/Users/casey/src/CKGenericTableViews/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib314763730#314763732#0(0"0(0#0#59"/Users/casey/src/CKGenericTableViews/RootViewController.xib8629585184#580"    cd /Users/casey/src/CKGenericTableViews    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/RootViewController.nib /Users/casey/src/CKGenericTableViews/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCopyPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Example.plist Example.plist
-r0
-
-CCopyPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example-Info.plist Example-Info.plist
-s314763554.214233
-e314763554.309985
-r1
-xCopyPlistFile
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example-Info.plist
-xExample-Info.plist
-lSLF07#2@23"Copy Example-Info.plist314763554#314763554#0(0"0(0#0#55"/Users/casey/src/CKGenericTableViews/Example-Info.plist8615920832#389"    cd /Users/casey/src/CKGenericTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Example-Info.plist --outdir /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app0#
-
-CCopyPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example.plist Example.plist
-s314763540.603680
-e314763540.649090
-r0
-xCopyPlistFile
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example.plist
-xExample.plist
-oExample.plist: file does not exist or is not readable or is not a regular file
-lSLF07#2@18"Copy Example.plist314763540#314763540#0(198"Example.plist: file does not exist or is not readable or is not a regular fileCommand /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist failed with exit code 11(4@118"Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist failed with exit code 1314763540#18446744073709551615#0#0(1@0"0(0#0#50"/Users/casey/src/CKGenericTableViews/Example.plist8602833152#384"    cd /Users/casey/src/CKGenericTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Example.plist --outdir /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app1#
-
-CGenerateDSYMFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app.dSYM /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/CKGenericTableViews
-r0
-
-CGenerateDSYMFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app.dSYM /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example
-s314763584.696178
-e314763584.839615
-r1
-xGenerateDSYMFile
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app.dSYM
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Example.app.dSYM build/Debug-iphonesimulator/Example.app/Example314763584#314763584#0(0"0(0#0#84"/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example8637869792#377"    cd /Users/casey/src/CKGenericTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example -o /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app.dSYM0#
-
-CLd /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/CKGenericTableViews normal i386
-r0
-
-CLd /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example normal i386
-s314763584.469020
-e314763584.696069
-r1
-xLd
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example
-xnormal
-xi386
-lSLF07#2@89"Link /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example314763584#314763584#0(0"0(0#0#0"8633782688#890"    cd /Users/casey/src/CKGenericTableViews    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -filelist /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Objects-normal/i386/Example.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Example0#
-
-CProcessInfoPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Info.plist CKGenericTableViews-Info.plist
-s314763477.485605
-e314763477.490022
-r0
-xProcessInfoPlistFile
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Info.plist
-xCKGenericTableViews-Info.plist
-lSLF07#2@38"Process CKGenericTableViews-Info.plist314763477#314763477#0(105"error: The file “CKGenericTableViews-Info.plist” couldn’t be opened because there is no such file.1(4@97"The file “CKGenericTableViews-Info.plist” couldn’t be opened because there is no such file.314763477#18446744073709551615#0#0(6@0"314763477#0#0#0#0#0"0(0#0#67"/Users/casey/src/CKGenericTableViews/CKGenericTableViews-Info.plist8628283104#509"    cd /Users/casey/src/CKGenericTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CKGenericTableViews-Info.plist -genpkginfo /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Info.plist1#
-
-CProcessInfoPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app/Info.plist Example-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Info.plist Example-Info.plist
-s314763540.600307
-e314763540.603478
-r1
-xProcessInfoPlistFile
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Info.plist
-xExample-Info.plist
-lSLF07#2@26"Process Example-Info.plist314763540#314763540#0(0"0(0#0#55"/Users/casey/src/CKGenericTableViews/Example-Info.plist8617363168#473"    cd /Users/casey/src/CKGenericTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Example-Info.plist -genpkginfo /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app/Info.plist0#
-
-CProcessPCH /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CKGenericTableViews_Prefix-hbhwruehwcmaoqcmsojppbyavaxp/CKGenericTableViews_Prefix.pch.gch CKGenericTableViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763554.310119
-e314763554.315820
-r0
-xProcessPCH
-x/var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CKGenericTableViews_Prefix-hbhwruehwcmaoqcmsojppbyavaxp/CKGenericTableViews_Prefix.pch.gch
-xCKGenericTableViews_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: /Users/casey/src/CKGenericTableViews/CKGenericTableViews_Prefix.pch: No such file or directory
-oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
-oi686-apple-darwin10-gcc-4.2.1: no input files
-lSLF07#2@41"Precompile CKGenericTableViews_Prefix.pch314763554#314763554#0(376"i686-apple-darwin10-gcc-4.2.1: /Users/casey/src/CKGenericTableViews/CKGenericTableViews_Prefix.pch: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1314763554#18446744073709551615#0#0(1@0"0(0#0#67"/Users/casey/src/CKGenericTableViews/CKGenericTableViews_Prefix.pch8639891040#1822"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -c /Users/casey/src/CKGenericTableViews/CKGenericTableViews_Prefix.pch -o /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CKGenericTableViews_Prefix-hbhwruehwcmaoqcmsojppbyavaxp/CKGenericTableViews_Prefix.pch.gch1#
-
-CProcessPCH /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch.gch Example_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s314763582.455210
-e314763583.629129
-r1
-xProcessPCH
-x/var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch.gch
-xExample_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Example_Prefix.pch314763582#314763583#0(0"0(0#0#55"/Users/casey/src/CKGenericTableViews/Example_Prefix.pch8634321184#1786"    cd /Users/casey/src/CKGenericTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-generated-files.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-own-target-headers.hmap -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-all-target-headers.hmap -iquote /Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/Example-project-headers.hmap -F/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator -I/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/include -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources/i386 -I/Users/casey/src/CKGenericTableViews/build/Example.build/Debug-iphonesimulator/Example.build/DerivedSources -c /Users/casey/src/CKGenericTableViews/Example_Prefix.pch -o /var/folders/mE/mEPAzwiIGy48ZALw-O40aE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Example_Prefix-ewqbhtcgczvsgbdzdypytrtkzowi/Example_Prefix.pch.gch0#
-
-CTouch /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/CKGenericTableViews.app
-r0
-
-CTouch /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app
-s314763732.683919
-e314763732.689648
-r1
-xTouch
-x/Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app
-lSLF07#2@82"Touch /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app314763732#314763732#0(0"0(0#0#0"8625581728#274"    cd /Users/casey/src/CKGenericTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/casey/src/CKGenericTableViews/build/Debug-iphonesimulator/Example.app0#
-
